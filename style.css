@@ -1,0 +1,39 @@
+* {
+  border: 1px solid black;
+}
+
+#logo, #men, #ads, #con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  height: 82vh;
+  background-image: url('https://www.pole-emploi.fr/accueil/image/mmlelement/pj/ea/bc/95/24/home-cover-48859.jpg');
+  background-position: center;
+}
+
+#tof {
+  height: 72%;
+  color: white;
+}
+
+#tof h1 {
+  font-size: 2.5em;
+}
+
+#tof h3 {
+  font-size: 1.8em;
+}
+
+#butt {
+  height: 28%;
+}
+
+#off {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
